@@ -1,0 +1,59 @@
+Nazwa: Przeglądanie kalendarza
+Autorzy: ML
+Priorytet: Ważne
+
+Opis: Użytkownik przegląda kalendarz, w którym zaznaczone są zdarzenia cykliczne oraz święta.
+
+Aktorzy: Klient, Baza danych
+Wymagania wstępne: 
+każdy użytkownik może przeglądać swój kalendarz
+
+ 
+Wymagania końcowe:
+kalendarz wyświetla zdarzenia cykliczne oraz święta
+Zdarzenia pozostają w kalendarzu po upływie przypisanego im terminu
+
+Scenariusz:
+1. Użytknownik uruchamia kalendarz
+2. baza danych ładuje wszystkie zapisane zdarzenia powiązane z tym użytkownikiem oraz święta i wyświetla ja na kalendarzu
+3. użytkownik klikając na interesujące go zdarzenie otwiera panel tego zdarzenia, który zawiera więcej informacji
+
+
+Założenia testów:
+po wybraniu opcji przeglądania kalendarza, ten wyświetla się na ekranie użytkownika
+kalendarz zawiera wszystkie święta i zdarzenia wpisane przez użytkownika
+
+
+
+
+
+
+
+Nazwa: Ustawienia
+Autorzy: ML
+Priorytet: Ważne
+
+Opis: Użytkownik otwiera menu ustawień, w którym może zmienić funkcjonowanie programu.
+
+Aktorzy: Klient, Baza danych
+Wymagania wstępne:
+Interfejs wyświetla zbiór aktywnych ustawień i ich nieaktywnych alternatyw
+każdy użytkownik ma dostęp do panelu ustawień
+Ustawienia o krytycznym znaczeniu dla pracy programu są dostępne tylko dla Administratora/Systemu
+
+Wymagania końcowe:
+Po wybraniu opcji w ustawieniach zostaje ona zapisana
+Każda wprowadzona zmiana ma wpływ na działanie programu
+Interfejs wyświetla nowy zbiór aktywnych ustawień
+
+Scenariusz:
+1. użytkownik przegląda panel ustawień
+2. użytkownik zaznacza opcje, które mają być aktywne
+3. użytkownik odznacza opcje, która mają mają przestać być aktywne
+4. użytkownik klika przycisk <zastosuj> zapisując wybrany zestaw ustawień
+5. program modyfikuje swoje działanie według nowego zestawu ustawień
+
+
+Założenia testów:
+Po wybraniu opcji w ustawieniach zostaje ona zapisana i wprowadzona w życie
+program zapamiętuje ustawienia pomiędzy sesjami
