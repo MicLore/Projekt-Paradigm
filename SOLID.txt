@@ -1,0 +1,28 @@
+DRY - ok
+KISS - ok
+MC - mamy minimum poza połączenie ustawienia - przypomnienie
+ADP - ok
+SDP - chyba ok
+SAP - chyba ok
+
+SOLID
+S - chyba ok
+O - średnio, należało by dodać pojedyncze linijki wywołań w odpowiednich klasach
+L - nie dziedziczymy
+I - nie dziedziczymy
+D - nie dziedziczymy
+
+GRASP
+Information Expert (Ekspert) - imo ok
+Creator (Twórca) - ok, jedynie klasa tworząca zdarzenia tworzy inne klasy
+Controller (Kontroler) - ok
+Low Coupling (Niskie Sprzężenie) - nie, połączenie ustawienia - przypomnienie
+High Cohesion (Wysoka Spójność) - ok
+Polymorphism (Polimorfizm) - nie dziedziczymy
+Pure Fabrication (Czysty Wymysł) - istnieje cykliczność
+Indirection (Pośrednictwo) - nie, połączenie ustawienia - przypomnienie
+Protected Variations (Ochrona Zmienności) - U_Zdarzenie tworzy swojego rodzaju barierę,
+						mogłaby być lepsza, ale potencjalne szkody są niewielkie
+
+W czasie pisania kodu trochę nam się zmieniła konwencja i połączenie ustawienia - przypomnienie przestało mieć sens.
+Najlepszym rozwiązaniem byłoby usunięcie tego połączenia.
